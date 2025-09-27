@@ -1,5 +1,5 @@
 # Pythonではじめるオープンデータ分析
-―経済統計の取得からデータハンドリング、可視化、分析まで―
+## ―経済統計の取得からデータハンドリング、可視化、分析まで―
 
 著者：**吉住遼**（[@well_living_ry](https://x.com/well_living_ry)）・**原泰史**（[@harayasushi](https://x.com/harayasushi)）
 
@@ -105,6 +105,11 @@ Windowsの場合
 
 ```sh
 uv pip install -r requirements.txt
+```
+
+```sh
+cd code
+jupyter notebook
 ```
 
 
