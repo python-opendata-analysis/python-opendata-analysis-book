@@ -1,6 +1,18 @@
-# データに関する利用規約のリンク
+# データに関する利用規約
 
-## 日本のデータ
+## 本書で利用したデータの出典
+
+- [7章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch07/README.md)
+- [8章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch08/README.md)
+- [9章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch09/README.md)
+- [10章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch10/README.md)
+- [11章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch11/README.md)
+- [12章](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/data/ch12/README.md)
+
+
+## 各サービスのデータに関する利用規約のリンク
+
+### 日本のデータ
 
 - [公共データ利用規約（第1.0版）](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)
 - [e-Stat](https://www.e-stat.go.jp/terms-of-use)
@@ -12,18 +24,21 @@
 - [厚生労働省](https://www.mhlw.go.jp/chosakuken/index.html)
 - [経済産業省](https://www.meti.go.jp/main/rules.html)
 - [財務省](https://www.mof.go.jp/about_mof/notice/index.html)
+- [国土交通省](https://www.mlit.go.jp/link.html)
 - [内閣府](https://www.cao.go.jp/notice/rule.html)
 - [金融庁](https://www.fsa.go.jp/rules/)
 - [国税庁](https://www.nta.go.jp/chuijiko/copy.htm)
 - [気象庁](https://www.jma.go.jp/jma/kishou/info/coment.html)
 - [国立社会保障・人口問題研究所](https://www.ipss.go.jp/site-ad/link/anlink.html)
+- [国土地理院](https://www.gsi.go.jp/GSI/chosaku.htm)
 - [日本銀行 時系列統計データ 検索サイト](https://www.stat-search.boj.or.jp/info/notice.html)
 - [投資信託協会 投信総合検索ライブラリー](https://toushin-lib.fwg.ne.jp/FdsWeb/)
 - [J-Quants APIサービス利用規約](https://jpx-jquants.com/termsofservice)
 - [日本年金機構](https://www.nenkin.go.jp/info/aboutweb/aboutsite.html)
+- [CSISシンプルジオコーディング実験](https://geocode.csis.u-tokyo.ac.jp/home/simple-geocoding/simple-geocoding-tems-of-use/)
 
 
-## 海外のデータ
+### 海外のデータ
 
 - [Copyright United Nations](https://www.un.org/en/about-us/copyright)
 - [UN.ORG Data Protection and Privacy Notice](https://www.un.org/en/about-us/privacy-notice)

@@ -77,42 +77,6 @@ Pythonのバージョンは2025年時点でsecurity版のうち最新の3.12と�
 - [WindowsでのPythonの環境構築](https://www.python.jp/install/windows/index.html)
 
 
-### 【参考】uvでの環境構築
-
-Astralの[uv](https://docs.astral.sh/uv/pip/environments/)を用いる場合です。
-
-- 仮想環境の構築
-
-```shell
-uv venv .venv312 --python 3.12
-```
-
-- 仮想環境のアクティベート
-
-macOSの場合
-
-```sh
-source .venv312/bin/activate
-```
-
-Windowsの場合
-
-```sh
-.venv312\Scripts\activate
-```
-
-- ライブラリのインストール
-
-```sh
-uv pip install -r requirements.txt
-```
-
-```sh
-cd code
-jupyter notebook
-```
-
-
 ## 更新情報
 
 - 2025-10-19: サポートサイト公開
@@ -141,14 +105,15 @@ Webサイトやイベントなどで使用する場合には、Webサイトや�
 
 本書の「1.2 データの利用規約と著作権について」の節で詳しく説明しています。
 
-各データの利用規約をできるかぎり[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/tree/release/terms_of_use)に整理しています。
+本書で利用したデータの出典は、[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/tree/main/terms_of_use)に記載しています。
+
+また、本書で用いていないデータを含め、各サービスのデータに関する利用規約のリンクをできるかぎり[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/tree/main/terms_of_use)に整理しています。
 リンク先に記載のないデータも含め、本書で取り上げるソースコードを用いて、あるいは参照することでデータを取得する過程では、データの利用方法・著作権について確認を行ってください。
 
 ## GitHubリポジトリ
 
-| branch名      | 内容                                                         |
+| branch名 | 内容 |
 | ------------- | ------------------------------------------------------------ |
-| main          | 書籍と同一のプログラムに~を加えたもの |
-| original_book | 書籍と同一のプログラム．                                     |
-
+| main | 書籍と同一のプログラムをベースとし、各サービスのサイトやAPIの更新に随時対応しています。 |
+| original_book | 書籍(初版)と基本的に同一のプログラム。各サービスのサイトやAPIの更新によりコードが実行できなくなっている場合があります。 |
 
