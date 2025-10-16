@@ -3,7 +3,7 @@
 
 著者：**吉住遼**（[@well_living_ry](https://x.com/well_living_ry)）・**原泰史**（[@harayasushi](https://x.com/harayasushi)）
 
-- [講談社サイエンティフィク](https://www.kspub.co.jp/)
+- [講談社サイエンティフィク](https://www.kspub.co.jp/book/detail/5412251.html)
 - [講談社](https://www.kodansha.co.jp/book/products/0000419304)
 - [版元ドットコム](https://www.hanmoto.com/bd/isbn/9784065412251)
 - [国会図書館リサーチ](https://ndlsearch.ndl.go.jp/books/R100000137-I9784065412251)
@@ -66,16 +66,8 @@
 
 ## ライブラリのバージョン
 
-Pythonのバージョンは2025年時点でsecurity版のうち最新の3.12としています。
-その他のライブラリのバージョンはrequirements.txtに記載しています。
-
-## Pythonの環境構築
-
-本書では、[Python.jp](https://www.python.jp/install/install.html)の環境構築ガイドに従っています。
-
-- [macOSでのPythonの環境構築](https://www.python.jp/install/macos/index.html)
-- [WindowsでのPythonの環境構築](https://www.python.jp/install/windows/index.html)
-
+本書初版のPythonのバージョンは2025年時点で[security版](https://devguide.python.org/versions/)のうち最新の3.12としています。
+その他のライブラリのバージョンは[requirements.txt](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/requirements.txt)に記載しています。
 
 ## 更新情報
 
@@ -108,7 +100,8 @@ Webサイトやイベントなどで使用する場合には、Webサイトや�
 本書で利用したデータの出典は、[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/tree/main/terms_of_use)に記載しています。
 
 また、本書で用いていないデータを含め、各サービスのデータに関する利用規約のリンクをできるかぎり[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/tree/main/terms_of_use)に整理しています。
-リンク先に記載のないデータも含め、本書で取り上げるソースコードを用いて、あるいは参照することでデータを取得する過程では、データの利用方法・著作権について確認を行ってください。
+
+リンク先に記載のないデータも含め、本書で取り上げるソースコードを用いて、あるいは参照することでデータを取得する過程では、データの利用方法・著作権について、必ずご自身で確認を行ってください。
 
 ## GitHubリポジトリ
 
