@@ -1,0 +1,48 @@
+# .github/ISSUE_TEMPLATE/question.yml
+name: ❓ その他の質問
+description: 書籍の内容に関する質問や問い合わせ
+title: "[質問] "
+labels: ["質問"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご質問いただきありがとうございます。
+        以下の項目をご記入ください。
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 質問の種類
+      description: 質問内容に最も近いものを選択してください
+      options:
+        - 書籍の内容について
+        - サンプルコードについて
+        - その他
+    validations:
+      required: true
+
+  - type: input
+    id: reference
+    attributes:
+      label: 参照ページ
+      description: 関連するページ番号や章があれば入力してください
+      placeholder: "例: p.120 第7章"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問内容
+      description: できるだけ具体的にご質問内容を記入してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 補足情報
+      description: その他、参考になる情報があれば記入してください
+    validations:
+      required: false

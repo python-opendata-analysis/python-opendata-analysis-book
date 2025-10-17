@@ -1,0 +1,70 @@
+# .github/ISSUE_TEMPLATE/bug.yml
+name: 🐛 コードのバグ報告
+description: 書籍掲載のサンプルコードの不具合を報告する
+title: "[バグ] "
+labels: ["バグ", "要調査"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        サンプルコードのバグを報告いただきありがとうございます。
+        以下の項目をご記入ください。
+
+  - type: input
+    id: location
+    attributes:
+      label: 該当箇所
+      description: ページ番号や章番号、GitHubのファイル名を入力してください
+      placeholder: "例: p.78 第6章 estat.py"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 実行環境
+      description: OS、プログラミング言語のバージョンなどを記入してください
+      placeholder: |
+        - OS: Windows 11 / macOS 14.0 / Ubuntu 22.04
+        - 言語バージョン: Python 3.11.0
+        - その他必要なライブラリのバージョン
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作
+      description: 本来どのように動作すべきかわかれば教えてください
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 実際にどのような動作をしたか教えてください
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: エラーメッセージ
+      description: エラーメッセージがあれば記入してください
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 再現手順
+      description: バグを再現するための手順を記入してください
+      placeholder: |
+        1. ○○を実行
+        2. △△を入力
+        3. エラーが発生
+    validations:
+      required: false
