@@ -1,0 +1,56 @@
+# .github/ISSUE_TEMPLATE/typo.yml
+name: 📝 誤植の報告
+description: 書籍内の誤字・脱字・表記ミス等を報告する
+title: "[誤植] "
+labels: ["誤植", "要確認"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        書籍の誤植を報告いただきありがとうございます。
+        以下の項目をご記入ください。
+
+  - type: input
+    id: page
+    attributes:
+      label: ページ番号
+      description: 誤植があるページ番号を入力してください
+      placeholder: "例: p.42"
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: 該当箇所
+      description: 章・節・段落など、該当箇所を入力してください
+      placeholder: "例: 第3章 3.2節 2段落目"
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: 誤りの内容
+      description: 現在の誤った記載内容を入力してください
+      placeholder: "誤: "
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: 正しい内容
+      description: 正しいと思われる内容がわかれば入力してください
+      placeholder: "正: "
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足情報
+      description: その他、補足情報があれば記入してください
+      placeholder: "任意"
+    validations:
+      required: false
