@@ -52,17 +52,17 @@
 見出し|nbviewer|
 ---|---|
 2 データハンドリングとpandas | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch02_data_wrangling.ipynb) | 
-3 統計の基礎 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch03_statistics.ipynb) | 
-4 データの可視化とPlotly | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch04_data_visualization.ipynb) | 
-5 オープンデータとデータ取得 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch05_opendata_and_gettingdata.ipynb) |
-6 オープンデータ・経済統計・公的統計 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch06_official_statistic.ipynb) |
-7 人口データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch07_population.ipynb) | 
-8 家計・生活・労働データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch08_households.ipynb) | 
-9 金融・市場の取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch09_finance.ipynb) | 
-10 国際統計・長期経済統計の取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch10_sna_and_economic_statistics.ipynb) | 
-11 法人・産業データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch11_industry.ipynb) | 
-12 gBizINFOの法人データを用いたスタートアップ企業の分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch12_startup.ipynb) | 
-13 e-Statを用いたふるさと納税のパネルデータ分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/ch13_paneldata.ipynb) | 
+3 統計の基礎 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch03_statistics.ipynb) | 
+4 データの可視化とPlotly | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch04_data_visualization.ipynb) | 
+5 オープンデータとデータ取得 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch05_opendata_and_gettingdata.ipynb) |
+6 オープンデータ・経済統計・公的統計 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch06_official_statistic.ipynb) |
+7 人口データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch07_population.ipynb) | 
+8 家計・生活・労働データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch08_households.ipynb) | 
+9 金融・市場の取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch09_finance.ipynb) | 
+10 国際統計・長期経済統計の取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch10_sna_and_economic_statistics.ipynb) | 
+11 法人・産業データの取得・可視化・分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch11_industry.ipynb) | 
+12 gBizINFOの法人データを用いたスタートアップ企業の分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch12_startup.ipynb) | 
+13 e-Statを用いたふるさと納税のパネルデータ分析 | [![](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/python-opendata-analysis/python-opendata-analysis-book/blob/main/code/ch13_paneldata.ipynb) | 
 
 ## ライブラリのバージョン
 
