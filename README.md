@@ -74,7 +74,7 @@
 ## 更新情報
 
 - 2025-10-19: サポートサイト公開
-- 2025-10-24: 書籍発売
+- 2025-10-22: 書籍発売
 
 詳しい更新情報は[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/UPDATE.md)を参照ください。
 
@@ -89,6 +89,16 @@
 書籍の質問は[Issues](https://github.com/python-opendata-analysis/python-opendata-analysis-book/issues)で受け付けております。
 
 FAQは[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/FAQ.md)にあります。
+
+### gBizINFO APIについて
+
+gBizINFOは2026年1月に次期システムに移行するため、2025年9月から現行システムのAPI利用申請の受付が中止されています。
+[次期gBizINFO に関する情報ページ](https://info.gbiz.go.jp/html/R7Infomation.html)によると、2025年9月末時点で、2025年9月30日がページ最終更新日となっており、2025年9月にAPI利用申請の受付中止、2026年1月に次期システムのサービスが開始し、2026年9月にREST APIのv1が終了してv2への移行予定と記載されています。
+また、情報ページにgBizINFOのデータ出典元からのデータ収集の凍結状況についても記載されています。
+
+さらに、gBizINFO REST API (v2)の[暫定版の仕様書](https://info.gbiz.go.jp/html/index_v2_20250919.html)が公開されています。
+
+本サポートサイトにて、2026年1月以降に、次期システムの仕様に対応した修正コードを提供予定です。
 
 ## ソースコードのライセンス
 
@@ -110,9 +120,9 @@ Webサイトやイベントなどで使用する場合には、Webサイトや�
 | branch名 | 内容 |
 | ------------- | ------------------------------------------------------------ |
 | main | 書籍と同一のプログラムをベースとし、各サービスのサイトやAPIの更新に随時対応しています。 |
-| original_book | 書籍(2025/10/24発売初版)と基本的に同一のプログラム。各サービスのサイトやAPIの更新によりコードが実行できなくなっている場合があります。 |
+| original_book | 書籍(2025/10/22発売初版)と基本的に同一のプログラム。各サービスのサイトやAPIの更新によりコードが実行できなくなっている場合があります。 |
 
-## 事例集サイト
+## オープンデータ分析 事例集サイト
 
 本書の事例集サイトとして、「[Open Data Casebook - オープンデータ分析 事例集サイト](https://github.com/python-opendata-analysis/opendata-casebook)」を用意しています。
 オープンデータや公的統計を活用した分析・可視化の事例とサンプルコードを公開しています。  
