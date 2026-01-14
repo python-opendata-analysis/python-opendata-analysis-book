@@ -82,6 +82,9 @@
 
 - 2025-10-19: サポートサイト公開
 - 2025-10-22: 書籍発売
+- 2025-12-3: 重版第2刷
+- 2025-12-28: 第1刷正誤表更新
+- 2026-1-31: gBizINFO REST APIのv1からv2への移行に対応
 
 詳しい更新情報は[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/UPDATE.md)を参照ください。
 
@@ -99,13 +102,14 @@ FAQは[リンク先](https://github.com/python-opendata-analysis/python-opendata
 
 ### gBizINFO APIについて
 
-gBizINFOは2026年1月に次期システムに移行するため、2025年9月から現行システムのAPI利用申請の受付が中止されています。
+gBizINFOのAPIは2026年1月にv2システムに移行しました。
+2025年9月からv1システムのAPI利用申請の受付が中止されています。
 [次期gBizINFO に関する情報ページ](https://info.gbiz.go.jp/html/R7Infomation.html)によると、2025年9月末時点で、2025年9月30日がページ最終更新日となっており、2025年9月にAPI利用申請の受付中止、2026年1月に次期システムのサービスが開始し、2026年9月にREST APIのv1が終了してv2への移行予定と記載されています。
 また、情報ページにgBizINFOのデータ出典元からのデータ収集の凍結状況についても記載されています。
 
 さらに、gBizINFO REST API (v2)の[暫定版の仕様書](https://info.gbiz.go.jp/html/index_v2_20250919.html)が公開されています。
 
-本サポートサイトにて、2026年1月以降に、次期システムの仕様に対応した修正コードを提供予定です。
+本サポートサイトにて、2026年1月に、v2システムの仕様に対応した修正コードを提供しました。
 
 ## ソースコードのライセンス
 
