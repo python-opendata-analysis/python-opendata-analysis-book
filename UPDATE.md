@@ -8,15 +8,20 @@
 | 1 | 106ページ | 統計ダッシュボードAPIのページ94)の | 統計ダッシュボードAPIのページ93)の | 2刷 | 誤植のため |
 | 2 | 106ページ | 「【系列要素コードの説明】」の黄色の四角枠の中のリンクにある「～」をクリックしてExcelファイルをダウンロードします | 「【系列要素コードの説明】」の黄色の四角枠の中のリンク「系列コード体系:xlsx」をクリックしてExcelファイルをダウンロードします | 2刷 | 誤植のため |
 | 3 | 240ページ脚注 | https://beta.bls.gov/dataQuery/search | https://data.bls.gov/dataQuery/search | 2刷 | 誤植のため |
-| 4 | 286ページ | "corporate_type"が株式会社、"year"が2021年のデータをJSON形式で取得します。 | "corporate_type"が株式会社、"year"が2023年のデータをJSON形式で取得します。 | 項番7及び9にて対応 | 誤植のため |
-| 5 | 283ページ | なお、gBizINFO は2026年1月に次期システムに移行し、2025年9月から現行システムのAPI利用申請の受付が中止されます。次期gBizINFOに関する情報ページによると、2025年8月末時点で、2025年8月7日がページ最終更新日となっており、2025年9月にAPI利用申請の受付中止、2026年1月に次期システムのサービスが開始し、2026年9月にREST APIのv1が終了してv2への移行予定と記載されています。また、情報ページにgBizINFOのデータ出典元からのデータ収集の凍結状況についても記載されています。 | なお、gBizINFOは2026年1月にREST APIのv1からv2にシステム移行しました。 |  | サービス提供システムの変更のため |
-| 6 | 285ページ | 本節冒頭で説明したように gBizINFO は 2026 年 1 月に次期システムに移行し、2025 年 9 月から現行システムの API 利用申請の受付が中止されます。本書のサポートサイト（1.3.3 項に記載）にて、2026 年 1 月以降に、次期システムの仕様に対応した修正コードを提供予定です。以下では、API 利用申請の受付が停止している旧システムの仕様にもとづいて gBizINFO の API を紹介します。 | 本節冒頭で説明したように gBizINFOは2026年1月にREST APIのv1からv2にシステム移行しました。本書のサポートサイト（1.3.3 項に記載）にて、現在、v2の仕様に対応した修正コードを提供しています。 | | サービス提供システムの変更のため |
-| 7 | 286ページ | "corporate_type"が株式会社、"year"が2021年のデータをJSON形式で取得します。 | "corporate_type"が株式会社のデータをJSON形式で取得します。 | | サービス提供システムの変更のため |
-| 8 | 286ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | | サービス提供システムの変更のため |
-| 9 | 286ページ(コードのparams_hojin内) | "year": "2023",  # 年度 | 削除 | | サービス提供システムの変更のため |
-| 10 | 289ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | | サービス提供システムの変更のため |
-| 11 | 291ページ | なお、gBizINFOでは2026 年 1 月から次期システムに移行することがWebサイト上でアナウンスされています。本書が出版される2025年10月段階ではAPI利用申請の受付が中止されています。そのため、代替案としてCSVデータを用いてデータを取得する2つの方法を以下に示します。 | なお、gBizINFOのAPIを利用せずに、CSVデータを用いてデータを取得する2つの方法を以下に示します。 | | サービス提供システムの変更のため |
-| 12 | 212ページ | Investors Network | Investors' NETwork | | 誤植のため |
+| 4 | 212ページ | Investors Network | Investors' NETwork | | 誤植のため |
+| 5 | 286ページ | "corporate_type"が株式会社、"year"が2021年のデータをJSON形式で取得します。 | "corporate_type"が株式会社、"year"が2023年のデータをJSON形式で取得します。 | 項番11及び13にて対応 | 誤植のため |
+| 6 | 282ページ脚注 | https://info.gbiz.go.jp/resource/index.html | https://help.info.gbiz.go.jp/hc/ja/articles/4795050523806 |   |  サービス提供システムの変更のため |
+| 7 | 283ページ | なお、gBizINFO は2026年1月に次期システムに移行し、2025年9月から現行システムのAPI利用申請の受付が中止されます。次期gBizINFOに関する情報ページによると、2025年8月末時点で、2025年8月7日がページ最終更新日となっており、2025年9月にAPI利用申請の受付中止、2026年1月に次期システムのサービスが開始し、2026年9月にREST APIのv1が終了してv2への移行予定と記載されています。また、情報ページにgBizINFOのデータ出典元からのデータ収集の凍結状況についても記載されています。 | なお、gBizINFOは2026年1月にREST APIのv1からv2にシステム移行しました。 |  | サービス提供システムの変更のため |
+| 8 | 283ページ脚注 | https://info.gbiz.go.jp/api/index.html | https://content.info.gbiz.go.jp/api/index.html |   | サービス提供システムの変更のため |
+| 9 | 285ページ | 本節冒頭で説明したように gBizINFO は 2026 年 1 月に次期システムに移行し、2025 年 9 月から現行システムの API 利用申請の受付が中止されます。本書のサポートサイト（1.3.3 項に記載）にて、2026 年 1 月以降に、次期システムの仕様に対応した修正コードを提供予定です。以下では、API 利用申請の受付が停止している旧システムの仕様にもとづいて gBizINFO の API を紹介します。 | 本節冒頭で説明したように gBizINFOは2026年1月にREST APIのv1からv2にシステム移行しました。本書のサポートサイト（1.3.3 項に記載）にて、現在、v2の仕様に対応した修正コードを提供しています。 | | サービス提供システムの変更のため |
+| 10 | 285ページ脚注 | https://info.gbiz.go.jp/api/index.html | https://content.info.gbiz.go.jp/api/index.html |   | サービス提供システムの変更のため |
+| 11 | 286ページ | "corporate_type"が株式会社、"year"が2021年のデータをJSON形式で取得します。 | "corporate_type"が株式会社のデータをJSON形式で取得します。 | | サービス提供システムの変更のため |
+| 12 | 286ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | | サービス提供システムの変更のため |
+| 13 | 286ページ(コードのparams_hojin内) | "year": "2023",  # 年度 | 削除 | | サービス提供システムの変更のため |
+| 14 | 286ページ脚注 | https://info.gbiz.go.jp/hojin/swagger-ui/index.html#/gBizINFO%20REST%20API/searchInfo | https://api.info.gbiz.go.jp/hojin/swagger-ui/index.html?urls.primaryName=v2 |   | サービス提供システムの変更のため |
+| 15 | 289ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | | サービス提供システムの変更のため |
+| 16 | 291ページ | なお、gBizINFOでは2026 年 1 月から次期システムに移行することがWebサイト上でアナウンスされています。本書が出版される2025年10月段階ではAPI利用申請の受付が中止されています。そのため、代替案としてCSVデータを用いてデータを取得する2つの方法を以下に示します。 | なお、gBizINFOのAPIを利用せずに、CSVデータを用いてデータを取得する2つの方法を以下に示します。 | | サービス提供システムの変更のため |
+
 
 # 更新情報
 
