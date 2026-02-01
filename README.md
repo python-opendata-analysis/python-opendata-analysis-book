@@ -83,8 +83,9 @@
 - 2025-10-19: サポートサイト公開
 - 2025-10-22: 書籍発売
 - 2025-12-3: 重版第2刷
-- 2025-12-28: 第1刷正誤表更新
-- 2026-1-31: gBizINFO REST APIのv1からv2への移行に対応
+- 2025-12-28: 第1刷正誤表更新(第2刷対応)
+- 2026-1-31: gBizINFO REST APIのv1からv2への移行に対応。第2刷正誤表更新(第3刷対応)
+- 2026-2-19: 重版第3刷
 
 詳しい更新情報は[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/UPDATE.md)を参照ください。
 
