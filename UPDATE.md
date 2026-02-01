@@ -21,7 +21,12 @@
 | 14 | 286ページ脚注 | https://info.gbiz.go.jp/hojin/swagger-ui/index.html#/gBizINFO%20REST%20API/searchInfo | https://api.info.gbiz.go.jp/hojin/swagger-ui/index.html?urls.primaryName=v2 | 3刷予定 | サービス提供システムの変更のため |
 | 15 | 289ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | 3刷予定 | サービス提供システムの変更のため |
 | 16 | 291ページ | なお、gBizINFOでは2026 年 1 月から次期システムに移行することがWebサイト上でアナウンスされています。本書が出版される2025年10月段階ではAPI利用申請の受付が中止されています。そのため、代替案としてCSVデータを用いてデータを取得する2つの方法を以下に示します。 | なお、gBizINFOのAPIを利用せずに、CSVデータを用いてデータを取得する2つの方法を以下に示します。 | 3刷予定 | サービス提供システムの変更のため |
-
+| 17 | 91ページ | meta["GET_META_INFO"]["METADATA_INF"]["TABLE_INF"].keys() | meta["GET_META_INFO"]["METADATA_INF"].keys() | 4刷予定 | 文章のわかりやすさのため |
+| 18 | 91ページ | dict_keys(['@id', 'STAT_NAME', 'GOV_ORG', 'STATISTICS_NAME', 'TITLE', 'CYCLE', 'SURVEY_DATE', 'OPEN_DATE', 'SMALL_AREA', 'COLLECT_AREA', 'MAIN_CATEGORY', 'SUB_CATEGORY', 'OVERALL_TOTAL_NUMBER', 'UPDATED_DATE', 'STATISTICS_NAME_SPEC', 'DESCRIPTION', 'TITLE_SPEC']) | dict_keys(['TABLE_INF', 'CLASS_INF']) | 4刷予定 | 文章のわかりやすさのため |
+| 19 | 91ページ | 辞書のkeysメソッドで1つずつキーを確認すると | 辞書のkeysメソッドと添字演算子[]で"GET_META_INFO"から1つずつキーを確認すると | 4刷予定 | 文章のわかりやすさのため |
+| 20 | 91ページ図6.7 | メタ情報のJSON構造 | メタ情報のJSON構造（本書で利用する主要なキーを抜粋） | 4刷予定 | 文章のわかりやすさのため |
+| 21 | 96ページ | 辞書のkeysメソッドで1つずつキーを確認すると | 辞書のkeysメソッドと添字演算子[]で"GET_STATS_INFO"から1つずつキーを確認すると | 4刷予定 | 文章のわかりやすさのため |
+| 22 | 96ページ図6.8 | 統計データのJSON構造 | 統計データのJSON構造（本書で利用する主要なキーを抜粋） | 4刷予定 | 文章のわかりやすさのため |
 
 # 更新情報
 
