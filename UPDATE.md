@@ -21,16 +21,27 @@
 | 14 | 286ページ脚注 | https://info.gbiz.go.jp/hojin/swagger-ui/index.html#/gBizINFO%20REST%20API/searchInfo | https://api.info.gbiz.go.jp/hojin/swagger-ui/index.html?urls.primaryName=v2 | 3刷予定 | サービス提供システムの変更のため |
 | 15 | 289ページ | url_hojin = "https://info.gbiz.go.jp/hojin/v1/hojin" | url_hojin = "https://api.info.gbiz.go.jp/hojin/v2/hojin" | 3刷予定 | サービス提供システムの変更のため |
 | 16 | 291ページ | なお、gBizINFOでは2026 年 1 月から次期システムに移行することがWebサイト上でアナウンスされています。本書が出版される2025年10月段階ではAPI利用申請の受付が中止されています。そのため、代替案としてCSVデータを用いてデータを取得する2つの方法を以下に示します。 | なお、gBizINFOのAPIを利用せずに、CSVデータを用いてデータを取得する2つの方法を以下に示します。 | 3刷予定 | サービス提供システムの変更のため |
-
+| 17 | 91ページ | meta["GET_META_INFO"]["METADATA_INF"]["TABLE_INF"].keys() | meta["GET_META_INFO"]["METADATA_INF"].keys() | 4刷予定 | 文章のわかりやすさのため |
+| 18 | 91ページ | dict_keys(['@id', 'STAT_NAME', 'GOV_ORG', 'STATISTICS_NAME', 'TITLE', 'CYCLE', 'SURVEY_DATE', 'OPEN_DATE', 'SMALL_AREA', 'COLLECT_AREA', 'MAIN_CATEGORY', 'SUB_CATEGORY', 'OVERALL_TOTAL_NUMBER', 'UPDATED_DATE', 'STATISTICS_NAME_SPEC', 'DESCRIPTION', 'TITLE_SPEC']) | dict_keys(['TABLE_INF', 'CLASS_INF']) | 4刷予定 | 文章のわかりやすさのため |
+| 19 | 91ページ | 辞書のkeysメソッドで1つずつキーを確認すると | 辞書のkeysメソッドと添字演算子[]で"GET_META_INFO"から1つずつキーを確認すると | 4刷予定 | 文章のわかりやすさのため |
+| 20 | 91ページ図6.7 | メタ情報のJSON構造 | メタ情報のJSON構造（本書で利用する主要なキーを抜粋） | 4刷予定 | 文章のわかりやすさのため |
+| 21 | 96ページ | 辞書のkeysメソッドで1つずつキーを確認すると | 辞書のkeysメソッドと添字演算子[]で"GET_STATS_INFO"から1つずつキーを確認すると | 4刷予定 | 文章のわかりやすさのため |
+| 22 | 96ページ図6.8 | 統計データのJSON構造 | 統計データのJSON構造（本書で利用する主要なキーを抜粋） | 4刷予定 | 文章のわかりやすさのため |
+| 23 | 188ページ | 日本銀行の「時系列統計データ 検索サイト」がから取得することができます。 | 日本銀行の「時系列統計データ 検索サイト」がから取得することができます。また、2026年2月から「時系列統計データ検索サイト API 機能」の提供が開始しました。本書では「時系列統計データ 検索サイト」からCSVデータをダウンロードする方法を紹介しますが、サポートサイトにてAPIでデータを取得するコードを提供します。 | 4刷予定 | サービス提供システムの新規追加のため |
+| 24 | 188ページ脚注 |  | https://www.boj.or.jp/statistics/outline/notice_2026/not260218a.htm | 4刷予定 | サービス提供システムの新規追加のため |
+| 25 | 210ページ | fund_flow_df = pd.read_csv(～) | fund_flow_df = pd.read_csv(～).rename(columns={"系列名称": "年度"}) | 4刷予定 | 文章のわかりやすさのため |
+| 26 | 210ページ | set_index("系列名称") | set_index("年度") | 4刷予定 | 文章のわかりやすさのため |
+| 27 | 210ページ | x="系列名称" | x="年度" | 4刷予定 | 文章のわかりやすさのため |
 
 # 更新情報
 
 - 2025-10-19: サポートサイト公開
-- 2025-10-24: 書籍発売
+- 2025-10-22: 書籍発売
 - 2025-12-3: 重版第2刷
 - 2025-12-28: 第1刷正誤表更新(第2刷対応)
 - 2026-1-31: gBizINFO REST APIのv1からv2への移行に対応。第2刷正誤表更新(第3刷対応)
 - 2026-2-19: 重版第3刷
+- 2026-3-30: 日本銀行時系列統計データ検索サイト API機能(2026年2月提供開始)に対応したコードをサポートサイトにて公開
 
 ## Issue対応
 

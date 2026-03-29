@@ -86,6 +86,7 @@
 - 2025-12-28: 第1刷正誤表更新(第2刷対応)
 - 2026-1-31: gBizINFO REST APIのv1からv2への移行に対応。第2刷正誤表更新(第3刷対応)
 - 2026-2-19: 重版第3刷
+- 2026-3-30: 日本銀行時系列統計データ検索サイト API機能(2026年2月提供開始)に対応したコードをサポートサイトにて公開
 
 詳しい更新情報は[リンク先](https://github.com/python-opendata-analysis/python-opendata-analysis-book/blob/main/UPDATE.md)を参照ください。
 
