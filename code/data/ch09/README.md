@@ -8,6 +8,8 @@
 
 出典：「EDINET閲覧（提出）サイト」（ https://disclosure2.edinet-fsa.go.jp/week0010.aspx ）、PDL1.0（ https://disclosure2.edinet-fsa.go.jp/week0010.aspx# ）（2025年8月1日に利用）
 
-- 日本銀行 時系列統計データ検索サイト API機能 クレジット表示
+- 日本銀行 時系列統計データ検索サイト API機能
+
+[クレジット表示](https://www.stat-search.boj.or.jp/info/api_notice.pdf)
 
 > このサービスは、日本銀行時系列統計データ検索サイトの API 機能を使用しています。サービスの内容は日本銀行によって保証されたものではありません。
